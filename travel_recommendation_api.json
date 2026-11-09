@@ -6,13 +6,13 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "https://loremflickr.com/600/400/sydney?lock=1",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkF9JNjaiYo9aX0n1-HSeu78Q93TsWLeCWDFLywHlzhg&s=10",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
           "timeZone": "Australia/Sydney"
         },
         {
           "name": "Melbourne, Australia",
-          "imageUrl": "https://loremflickr.com/600/400/melbourne?lock=2",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuqbSUUWhBpNm586P6NNBv56AFdW8kal8Am6QmBPPbw&s=10",
           "description": "A cultural hub famous for its art, food, and diverse neighborhoods.",
           "timeZone": "Australia/Melbourne"
         }
@@ -24,13 +24,13 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "https://loremflickr.com/600/400/tokyo?lock=3",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMROqYenOHtmDvI-rG6wUeEKnv4UP_mk4pU2QaVxw75g&s=10",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
           "timeZone": "Asia/Tokyo"
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "https://loremflickr.com/600/400/kyoto?lock=4",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_NK2E7h56fKwc5LK3XPnrmizskTK7cTv7BdrD83Q_lg&s=10",
           "description": "Known for its historic temples, gardens, and traditional tea houses.",
           "timeZone": "Asia/Tokyo"
         }
@@ -42,13 +42,13 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "https://loremflickr.com/600/400/rio?lock=5",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKl_mLs24KSNLkV5PmRyU9cfJlENqT3Fpo0gCaLNTxRw&s=10",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
           "timeZone": "America/Sao_Paulo"
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "https://loremflickr.com/600/400/saopaulo?lock=6",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5HA1ze1oes-_oj41KRQn0H91O4Dz1IvhydkM8f0ER8A&s=10",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife.",
           "timeZone": "America/Sao_Paulo"
         }
@@ -59,14 +59,14 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "https://loremflickr.com/600/400/angkorwat?lock=7",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8tLHRogDsy6FtqAGrK7X2qlmNJsKorVk-sCBwEGcahg&s=10",
       "description": "A UNESCO World Heritage site and the largest religious monument in the world.",
       "timeZone": "Asia/Phnom_Penh"
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "https://loremflickr.com/600/400/tajmahal?lock=8",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAT3giq7Afbau18i9ADt-lLKyFephPrv3vkIM5evsm7A&s=10",
       "description": "An iconic symbol of love and a masterpiece of Mughal architecture.",
       "timeZone": "Asia/Kolkata"
     }
@@ -75,14 +75,14 @@
     {
       "id": 1,
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "https://loremflickr.com/600/400/borabora?lock=9",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIxpp2o9VNGO7goZx7OoBd3bEvQVvOTowZWR7psaFUA&s=10",
       "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
       "timeZone": "Pacific/Tahiti"
     },
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
-      "imageUrl": "https://loremflickr.com/600/400/copacabana?lock=10",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQazE5_ucPitLWuRuV0y-__e1ePSXnDvHXNxoeWuqosFg&s=10",
       "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
       "timeZone": "America/Sao_Paulo"
     }
