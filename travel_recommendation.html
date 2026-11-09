@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <h2>TravelBloom</h2>
+        <a href="./travel_recommendation.html" class="active">Home</a>
+        <a href="./about_us.html">About Us</a>
+        <a href="./contact_us.html">Contact Us</a>
+        <input type="text" id="search" placeholder="Enter a destination or keyword">
+        <button id="search_btn">Search</button>
+        <button id="reset_btn">Clear</button>
+    </nav>
+
+    <header class="hero">
+        <h1>Explore Dream Destinations</h1>
+        <p>
+            The Travel Recommendations App helps users explore popular travel destinations through an interactive and user-friendly interface.
+            It allows users to search for beaches, temples, countries or specific country names to view related cities along with images and descriptions.
+            The app dynamically fetches data from a structured JSON file to display relevant results. It provides a simple and efficient way to discover and plan travel destinations.
+        </p>
+    </header>
+
+    <!-- Your JS shows this by removing the "hidden" class, and fills #results with cards -->
+    <section id="results_section" class="hidden">
+        <h2>Search Results</h2>
+        <div id="results">
+            <!-- Each result card should look like this:
+            <div class="card">
+                <img src="image-url" alt="Place name">
+                <h3>Place name</h3>
+                <p>Description</p>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
