@@ -35,18 +35,35 @@ async function displaySearchResults() {
     heroSection.classList.add('hidden')
     searchResultsSection.classList.remove('hidden');
     recommendationsData = await fetchRecommendationsApiData(searchInput.value);
-    console.log(recommendationsData)
 
     if (typeof recommendationsData !== 'object') {
         searchResults.innerHTML = '<p> No data found </p>'
 
     } else {
         for (const data of recommendationsData) {
+            const options = { timeZone: data.timeZone, hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const date = new Date();
+	        let time = date.toLocaleTimeString('en-GB', options);
+            const timerIntervalId = setInterval(() => {
+                const timeDisplays = document.getElementsByClassName('time')
+                date.setSeconds(date.getSeconds() + 1);
+                time = date.toLocaleTimeString('en-GB', options);
+
+                for (const timeDisplay of timeDisplays) {
+                timeDisplay.textContent = time;
+                }
+
+            }, 1000)
+
             searchResults.innerHTML += `<div class="card">
             <img src=${data.imageUrl} alt=${data.name}>
             <h3>${data.name}</h3>
             <p>${data.description}</p>
-        </div>`
+            <div class="card-time">
+            <span class="time-label">Local time</span>
+            <span class="time">${time}</span>
+            </div>
+            </div>`
         }
     }
 }

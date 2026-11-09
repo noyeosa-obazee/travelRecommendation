@@ -179,6 +179,34 @@ h1 {
   color: #4a5b64;
 }
 
+/* Local time shown on country/city cards */
+.card-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 16px 16px;
+  padding: 8px 14px;
+  background: #eef7f5;
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+}
+
+.card-time .time-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #4a5b64;
+}
+
+.card-time .time {
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+  font-variant-numeric: tabular-nums; /* digits keep the same width so the clock doesn't jiggle */
+}
+
 .no-results {
   grid-column: 1 / -1;
   color: var(--text-muted);
